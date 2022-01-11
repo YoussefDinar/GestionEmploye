@@ -6,11 +6,11 @@ class Personnel{
     
     public:
 Personnel();
-~Personnel();
+
 unsigned size() const;
 void ajouter(Employe* e);
 void calculer() const;
-
+~Personnel();
 
 
 private:
